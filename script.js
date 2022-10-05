@@ -49,11 +49,8 @@ function round(num){
 }
 
 function addZero(num){
-	alert("hello");
 	tempNum = (num*100)%10
-	alert("Num: " + num + " TempNum: " + tempNum);
 	if(tempNum < 1) {
-		alert("goodbye");
 		num = num + "0";
 	}
 	return num;
