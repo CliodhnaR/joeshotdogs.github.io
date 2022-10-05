@@ -50,7 +50,7 @@ function round(num){
 
 function addZero(num){
 	tempNum = (num*100)%10
-	if(tempNum < 1) {
+	if(tempNum == 0) {
 		num = num + "0";
 	}
 	return num;
